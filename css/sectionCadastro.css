@@ -1,0 +1,214 @@
+#cadastro {
+    overflow: hidden;
+    position: relative;
+}
+
+#cadastro img.graficos {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    mix-blend-mode: screen;
+    opacity: .1;
+
+    display: none;
+}
+
+#cadastro .form {
+    position: relative;
+}
+
+#cadastro header {
+    position: relative;
+}
+
+#cadastro header::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 60%;
+    background: linear-gradient(to left, transparent, #007DC7, transparent);
+
+    top: -20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#cadastro header h2 {
+    font-family: 'Paralucent-Medium', sans-serif;
+    background: linear-gradient(145deg, #f2faff 65%, #007DC7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+}
+
+#cadastro header p {
+  color: #f2faff;   
+  font-size: 1.4rem;
+    margin-top: .5rem;
+}
+
+#cadastro form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: start;
+    text-align: left;
+    width: 100%;
+}
+
+#cadastro form label {
+    font-size: 1.4rem;
+    font-family: 'Paralucent-Medium', sans-serif;
+    background: linear-gradient(145deg, #f2faff 65%, #b5e4ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-bottom: .5rem;
+    margin-top: 1.5rem;
+}
+
+#cadastro form input,
+#cadastro form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+
+    color: #dff1fc;   
+
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background: linear-gradient(to right, #00124a18, #007ec71e);
+    border-radius: .5rem;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+#cadastro form input::placeholder,
+#cadastro form textarea::placeholder {
+    color: #f2faff77;   
+}
+
+#cadastro form button {
+    width: 100%;
+}
+
+#cadastro img.minigrafico {
+    position: absolute;
+    width: 50%;
+    bottom: 30%;
+    z-index: 2;
+    filter: blur(3px);
+}
+
+#cadastro img.minigrafico.esquerda {
+    left: -35%;
+}
+
+#cadastro img.minigrafico.direita {
+    right: -35%;
+    z-index: 3;
+    bottom: 28%;
+    transform: rotate(180deg);
+}
+
+section#cadastro #rd-row-m5in9w3s .bricks--column > div {
+    padding: 0;
+}
+
+section#cadastro form#conversion-form-parceiros {
+
+    border-radius: 1rem;
+    width: 100%;
+    padding: .5rem;
+        backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+        background: linear-gradient(to right, #00124a18, #0034531e);
+}
+
+section#cadastro #rd-form-m5in9w3u .bricks-form__fieldset {
+    width: 100%;
+}
+
+section#cadastro #rd-form-m5in9w3u .bricks-form__input {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    height: initial;
+
+    color: #dff1fc;   
+
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background: linear-gradient(to right, #00124a18, #007ec71e);
+    border-radius: .5rem;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+section#cadastro #rd-form-m5in9w3u .bricks-form__input::placeholder {
+    font-size: 1.1rem;
+}
+
+section#cadastro #rdstation-bricks-embeddable-form-bricks-component-KxP3GiQHlbH767ipTMfZlA .bricks--column .bricks-form {
+    background-color: #000914;
+    margin-top: -3rem;
+}
+
+section#cadastro #rdstation-bricks-embeddable-form-bricks-component-piatL45aQ3RhpUU0nSZqww .bricks--column .bricks-form {
+    background-color: #000914;
+    margin-top: -3rem;
+}
+
+section#cadastro #rd-form-m5in9w3u .with-select-flags > .phone-input-group > .select2-container > .select2-choice > .select2-chosen {
+    background-color: #001835;
+}
+
+section#cadastro #rd-form-m5in9w3u .with-select-flags > .phone-input-group > .select2-container > .select2-choice > .select2-chosen > .flag {
+    margin-left: 8px;
+}
+
+@media (min-width: 1080px) {
+    section#cadastro header {
+        margin-bottom: 0;
+    }
+
+    section#cadastro header::after {
+        top: -20%;
+        width: 30%;
+    }
+
+    section#cadastro header h2 {
+        font-size: 6rem;
+        background: linear-gradient(145deg, #f2faff 45%, #007DC7);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+       
+    }
+
+    section#cadastro header p {
+        font-size: 1.8rem;
+    }
+    
+    section#cadastro .form {
+        padding-inline: 15%;
+    }
+
+    section#cadastro form {
+        
+        width: 100%;
+        padding: 3rem;
+        backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+        background: linear-gradient(to right, #00124a18, #0034531e);
+    }
+
+    section#cadastro form#conversion-form-parceiros {
+        padding: 3rem;
+    }
+
+    section#cadastro #rd-form-m5in9w3u .bricks-form__input::placeholder {
+        font-size: 1.5rem;
+    }
+
+}

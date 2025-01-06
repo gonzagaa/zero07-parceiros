@@ -1,0 +1,9 @@
+footer {
+    padding-block: 2rem;
+    background: var(--gradient);
+}
+
+footer p {
+    font-size: 1.4rem;
+    color: #fff;
+}
